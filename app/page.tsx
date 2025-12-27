@@ -18,7 +18,7 @@ export default function Home() {
 
   // Read NEXT_PUBLIC_API_URL from env (available client-side) and normalize
   const rawApiBase = (process.env.NEXT_PUBLIC_API_URL || "").trim();
-  const API_BASE = "https://todolistappbackend-production-7589.up.railway.app"
+  const API_BASE = "todolistappbackend-production-96c0.up.railway.app"
     // rawApiBase.length > 0
     //   ? rawApiBase.replace(/\/+$/, "") // remove trailing slashes
     //   : "http://localhost:5000";
